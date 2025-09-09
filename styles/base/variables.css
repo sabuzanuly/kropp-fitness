@@ -3,6 +3,7 @@
 	--color-light: #fff;
 	--color-dark-gray: #404040;
 	--color-light-gray: #c4c4c4;
+	--color-dark-alternate: #131619;
 
 	--border-radius: 30px;
 	--border: 1px solid var(--color-light);
