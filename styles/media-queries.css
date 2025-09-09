@@ -44,6 +44,32 @@
 		height: auto;
 		margin-block: 0;
 	}
+
+	.join-us-body {
+		padding-bottom: 80px;
+	}
+
+	.join-us-title:not(:last-child) {
+		margin-bottom: 80px;
+	}
+
+	.join-us-video-play-button {
+		width: 140px;
+	}
+
+	.join-us-title:not(:last-child) {
+		margin-bottom: 40px;
+	}
+
+	.section-description {
+		font-size: 16px;
+	}
+
+	.join-us-form-body {
+		flex-direction: column;
+		align-items: center;
+		row-gap: 20px;
+	}
 }
 
 @media (max-width: 767px) {
