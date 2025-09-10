@@ -42,8 +42,8 @@
 	content: '';
 	width: 26px;
 	aspect-ratio: 1;
-	background: url('/assets/icons/arrows/arrow-top-right.svg') center/contain
-		no-repeat;
+	background: url('../../assets/icons/arrows/arrow-top-right.svg')
+		center/contain no-repeat;
 	transition-duration: var(--transition-duration);
 }
 
