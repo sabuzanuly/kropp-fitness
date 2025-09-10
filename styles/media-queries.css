@@ -70,6 +70,11 @@
 		align-items: center;
 		row-gap: 20px;
 	}
+
+	.location {
+		display: flex;
+		flex-direction: column-reverse;
+	}
 }
 
 @media (max-width: 767px) {
@@ -132,5 +137,13 @@
 
 	.training-types-image {
 		max-width: 120px;
+	}
+
+	.location-body {
+		padding-block: 40px;
+	}
+
+	.location-description:not(:last-child) {
+		margin-bottom: 20px;
 	}
 }
