@@ -75,6 +75,10 @@
 		display: flex;
 		flex-direction: column-reverse;
 	}
+
+	.family-image {
+		height: 360px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -145,5 +149,18 @@
 
 	.location-description:not(:last-child) {
 		margin-bottom: 20px;
+	}
+
+	.family-image {
+		height: 180px;
+	}
+
+	.family-header {
+		padding-top: 80px;
+		padding-bottom: 50px;
+	}
+
+	.family-body {
+		column-gap: 12px;
 	}
 }
